@@ -1,0 +1,127 @@
+
+h2 {
+font-family: 'Big Shoulders Display', cursive;
+
+}
+.container {
+    height: 37.5rem;
+    width: 90.0625rem;
+
+    background-color: hsl(0, 0%, 15%);
+}
+
+.tarjetas{
+
+    /* background-color: hsl(319, 75%, 36%); */
+    position: relative;
+    width: 57.5rem;
+    height: 30rem;
+    left: 16rem;    
+    top: 7rem;
+}
+
+.tarjeta-orange{
+    position: absolute;
+    width: calc(100%/3);
+    height: 100%;
+    background-color:  hsl(31, 77%, 52%);
+}
+
+
+.contenido-tarjeta{
+
+    position: absolute;
+    top: 3.5625rem;
+    left: 2.8125rem;
+    padding-right: 60px;
+}
+
+.circulo-icono{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #b46b1e ;
+    
+}
+
+.icono-coche{
+    position: absolute;
+    top: 0.6875rem;
+    left: 1.25rem;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.descripcion{
+    font-family: 'Lexend Deca', sans-serif;
+    /* color: white; */
+    color: rgba(255 255 255 /.6);
+    line-height: 1.5rem;
+    font-size: 0.9375rem;
+    
+}
+
+.boton{
+
+    font-family: 'Lexend Deca', sans-serif;
+    
+    background-color: white;
+    padding: 0.9375rem 2.1875rem;
+    border: none;
+    border-radius: 1.55rem;
+    color: hsl(31, 77%, 52%);
+    font-size: 0.9375rem;
+    position: absolute;
+    top: 20.625rem;
+    
+
+}
+
+/* ::tarjeta cyan:: */
+
+.tarjeta-cyan{
+    position: absolute;
+    left: 19.1875rem;
+    width: calc(100%/3);
+    height: 100%;
+    background-color:  hsl(184, 100%, 22%);
+
+}
+
+.circulo-icono-cyan{
+    
+    background-color: #01545a ;
+}
+
+.boton-cyan{
+
+    color :  hsl(184, 100%, 22%)
+
+}
+
+
+/* ::tarjeta green:: */
+.tarjeta-green{
+
+    position: absolute;
+    left: 614px;
+    width: calc(100%/3);
+    height: 100%;
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.circulo-icono-green{
+    
+    background-color: #003432 ;
+}
+
+.boton-green{
+
+    color: hsl(179, 100%, 13%);
+}
+
+
+
